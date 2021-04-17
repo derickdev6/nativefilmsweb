@@ -64,6 +64,7 @@ header {
   height: 8rem;
   background: var(--jet);
   width: 100%;
+  z-index: 10;
 }
 header #header-logo {
   margin: 0 0 0 5vw;
@@ -171,13 +172,12 @@ main #main-landing span {
   text-align: center;
 }
 #main-clientes #main-clientes-logocont {
-  padding: 0 5vw;
+  padding: 0 5vw 5vh 5vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-bottom: 5vh;
 }
 #main-clientes #main-clientes-logocont img {
   width: 40%;
@@ -188,4 +188,81 @@ main #main-landing span {
 #main-clientes #main-clientes-logocont .b2,
 .b3 {
   display: none;
+}
+
+/* RECONOCIMIENTOS */
+
+#main-reconocimientos {
+  padding: 0 5vw;
+  line-height: 3rem;
+  background-image: url(../img/Who.jpg);
+  background-position: 70% center;
+  background-size: cover;
+  color: var(--not-white);
+}
+#main-reconocimientos h2 {
+  font-family: "Nanum Gothic Bolder";
+  padding: 5vh 0;
+  font-size: 4rem;
+}
+#main-reconocimientos p {
+  padding-bottom: 5vh;
+  font-family: "Nanum Gothic";
+  font-size: 2rem;
+}
+#main-reconocimientos #main-reconocimientos-imgcont {
+  display: none;
+}
+#main-reconocimientos #main-reconocimientos-imgcont div {
+  height: 16rem;
+  width: 32%;
+  overflow: hidden;
+  display: flex;
+}
+#main-reconocimientos #main-reconocimientos-imgcont .left {
+  justify-content: center;
+}
+#main-reconocimientos #main-reconocimientos-imgcont .right {
+  justify-content: center;
+}
+#main-reconocimientos #main-reconocimientos-imgcont div img {
+  height: 100%;
+}
+
+/* CONTACTO */
+
+#main-contacto {
+  background: var(--jet);
+}
+#main-contacto h2 {
+  padding: 5vh 0;
+  font-family: "Nanum Gothic Bolder";
+  text-align: center;
+  font-size: 4rem;
+  color: var(--not-white);
+}
+#main-contacto #main-contacto-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 5vw 5vh 5vw;
+}
+#main-contacto #main-contacto-list li {
+  width: 50%;
+  text-align: center;
+  padding: 2vh 0;
+}
+#main-contacto #main-contacto-list li a {
+  align-items: center;
+  text-decoration: none;
+  color: var(--not-white);
+}
+#main-contacto #main-contacto-list li a p {
+  font-family: "Daughter";
+  display: none;
+  font-size: 1.5rem;
+}
+#main-contacto #main-contacto-list li a img {
+  width: 50%;
 }

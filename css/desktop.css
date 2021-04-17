@@ -37,6 +37,7 @@ main #main-landing span {
   height: auto;
   width: 100%;
 }
+
 /* CLIENTES */
 #main-clientes #main-clientes-logocont {
   padding: 0 12vw;
@@ -56,4 +57,36 @@ main #main-landing span {
 }
 #main-clientes #main-clientes-logocont img {
   border-radius: 3rem;
+}
+
+/* RECONOCIMIENTOS */
+
+#main-reconocimientos {
+  padding: 0 12vw;
+  line-height: 3.5rem;
+}
+#main-reconocimientos h2 {
+  font-size: 2.5rem;
+}
+#main-reconocimientos p {
+  font-size: 1.8rem;
+}
+#main-reconocimientos #main-reconocimientos-imgcont div img {
+  height: auto;
+  width: 100%;
+}
+
+/* CONTACTO */
+
+#main-contacto h2 {
+  font-size: 2.5rem;
+}
+#main-contacto #main-contacto-list {
+  padding: 0 12vw 5vh 12vw;
+}
+#main-contacto #main-contacto-list li {
+  padding: 6vh 0;
+}
+#main-contacto #main-contacto-list li a img {
+  width: 25%;
 }

@@ -51,3 +51,46 @@ main #main-landing span {
 #main-clientes #main-clientes-logocont .b2 {
   display: block;
 }
+
+/* RECONOCIMIENTOS */
+
+#main-reconocimientos {
+  padding: 0 10vw;
+  background-image: none;
+  color: var(--jet);
+}
+#main-reconocimientos h2 {
+  font-size: 2rem;
+}
+#main-reconocimientos p {
+  font-size: 1.6rem;
+}
+#main-reconocimientos #main-reconocimientos-imgcont {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5vh;
+}
+
+/* CONTACTO */
+
+#main-contacto h2 {
+  font-size: 2rem;
+}
+#main-contacto #main-contacto-list {
+  padding: 0 10vw 5vh 10vw;
+}
+#main-contacto #main-contacto-list li {
+  padding: 4vh 0;
+  width: 30%;
+}
+#main-contacto #main-contacto-list li a {
+  display: flex;
+}
+#main-contacto #main-contacto-list li a p {
+  text-align: left;
+  padding-left: 2vw;
+  display: block;
+}
+#main-contacto #main-contacto-list li a img {
+  width: 30%;
+}
