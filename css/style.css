@@ -148,18 +148,20 @@ main #main-landing span {
   width: 32%;
   overflow: hidden;
   display: flex;
+  background-size: cover;
+  background-position: center center;
 }
 #main-nosotros #main-nosotros-imgcont .left {
   justify-content: center;
+  background-image: url(../img/iguana.jpg);
 }
 #main-nosotros #main-nosotros-imgcont .center {
   justify-content: center;
+  background-image: url(../img/reef.jpg);
 }
 #main-nosotros #main-nosotros-imgcont .right {
   justify-content: center;
-}
-#main-nosotros #main-nosotros-imgcont div img {
-  height: 100%;
+  background-image: url(../img/turtle.jpg);
 }
 /* CLIENTES */
 
@@ -218,15 +220,16 @@ main #main-landing span {
   width: 32%;
   overflow: hidden;
   display: flex;
+  background-size: cover;
+  background-position: center center;
 }
 #main-reconocimientos #main-reconocimientos-imgcont .left {
   justify-content: center;
+  background-image: url(../img/iguana.jpg);
 }
 #main-reconocimientos #main-reconocimientos-imgcont .right {
   justify-content: center;
-}
-#main-reconocimientos #main-reconocimientos-imgcont div img {
-  height: 100%;
+  background-image: url(../img/turtle.jpg);
 }
 
 /* CONTACTO */

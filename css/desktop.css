@@ -33,9 +33,8 @@ main #main-landing span {
 #main-nosotros p {
   font-size: 1.8rem;
 }
-#main-nosotros #main-nosotros-imgcont div img {
-  height: auto;
-  width: 100%;
+#main-nosotros #main-nosotros-imgcont div {
+  height: 25rem;
 }
 
 /* CLIENTES */
@@ -71,9 +70,8 @@ main #main-landing span {
 #main-reconocimientos p {
   font-size: 1.8rem;
 }
-#main-reconocimientos #main-reconocimientos-imgcont div img {
-  height: auto;
-  width: 100%;
+#main-reconocimientos #main-reconocimientos-imgcont div {
+  height: 25rem;
 }
 
 /* CONTACTO */
