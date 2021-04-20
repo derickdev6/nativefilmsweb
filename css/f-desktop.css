@@ -1,0 +1,14 @@
+/* HEADER */
+
+header #header-logo {
+  margin: 0 0 0 12vw;
+}
+header #header-menu {
+  margin: 0 12vw 0 0;
+}
+
+/* MAIN */
+
+main section {
+  width: 76vw;
+}
